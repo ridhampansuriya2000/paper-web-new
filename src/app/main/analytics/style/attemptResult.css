@@ -1,0 +1,65 @@
+.your-custom-styles tbody tr td {
+    font-size: 16px;
+    /*color: blueviolet;*/
+}
+
+.your-custom-styles thead tr th {
+    font-size: 16px;
+    /*color: blueviolet;*/
+}
+
+.your-custom-styles > .dataTables_paginate ul li a {
+    font-size: 16px;
+    /*color: blueviolet;*/
+}
+
+.datatable-pagination {
+    font-size: 20px;
+}
+.row{
+    font-size: 20px;
+}
+
+/** For Search Box in Table */
+.form-control {
+    height: 4rem!important;
+    width: 20rem!important;
+    font-size: 20px!important;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+/** For Number of Row Selection Box in Table */
+.custom-select{
+    width: 10rem!important;
+    height: 3rem!important;
+    font-size: 15px!important;
+}
+/** For Pagination in Table */
+.page-link{
+    font-size: 20px!important;
+}
+
+tbody + thead{
+    display: none;
+}
+
+.your-custom-styles thead tr .sorting_desc:after{
+    font-size: 16px;
+}
+.your-custom-styles thead tr .sorting_desc:before{
+    font-size: 16px;
+}
+.your-custom-styles thead tr .sorting:after{
+    font-size: 16px;
+}
+.your-custom-styles thead tr .sorting:before{
+    font-size: 16px;
+}
+
+.your-custom-styles thead tr .sorting_asc:after{
+    font-size: 16px;
+}
+.your-custom-styles thead tr .sorting_asc:before{
+    font-size: 16px;
+}

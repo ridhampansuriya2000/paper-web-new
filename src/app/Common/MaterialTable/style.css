@@ -1,0 +1,63 @@
+/* Remove box shadow around entire table */
+div.MuiPaper-elevation2 {
+  box-shadow: none;
+}
+
+/* Break apart table rows and give side space for row box shadows */
+table.MuiTable-root {
+  border-collapse: separate;
+  border-spacing: 0 1.6vh;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+/* this is problematic since the page does not always load the
+material table toolbar as root-12. After compile, after login?
+Effects on production product? */
+.MTableToolbar-root-12 {
+  border-radius: 10px;
+  margin-bottom: 2vh;
+}
+
+/* Curved border on table header row */
+thead.MuiTableHead-root {
+  border-radius: 10px;
+}
+
+/* remove grey underline from table header cells */
+th.MuiTableCell-root {
+  border-bottom: none;
+}
+
+/* Handles curved borders on table rows */
+th.MuiTableCell-root:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+th.MuiTableCell-root:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* remove grey underline from all table data */
+td.MuiTableCell-root {
+  border-bottom: none;
+}
+
+/* Change color of pagination arrows, also action buttons
+affected. No icons currently used are not grey, but it could
+complicate adding different colored MUI icons on table pages */
+.MuiSvgIcon-root {
+  color: grey;
+}
+
+/* Footer */
+.Material-table-Pagination {
+  float: left;
+}
+tfoot.MuiTableFooter-root {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px #6199f229;
+  /* flat value margin used to avoid overlapping sidebar */
+}
